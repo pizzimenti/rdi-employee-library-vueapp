@@ -1,4 +1,4 @@
-# rdi-employee-library-vueapp
+# RDI Employee Library Vue App
 This web app allows RDI employees to view a catalog of books that employees keep in RDI offices and allow other employees onsite borrowing privelages. The intent is free sharing of information among employees as well as opportunities for discussion and mentorship.
 
 It was started by Bradley Pizzimenti in the Anchorage office and built on Vue/Firebase.
