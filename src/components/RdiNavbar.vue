@@ -1,21 +1,14 @@
 <template>
   <nav>
+    <img src="../assets/rdi_logo_primary_light.png" alt="RDI Logo" class="navbar-logo" />
     <h1>RDI Employee Library</h1>
-    <!-- Placeholder for additional navbar content -->
+    <!-- Additional navbar content -->
   </nav>
 </template>
 
 <script>
 export default {
-  name: 'RdiNavbar', // Ensure this matches the file name
-  // Additional script content can be added here
+  name: 'RdiNavbar',
+  // Additional script content
 }
 </script>
-
-<style scoped>
-nav {
-  background-color: #333;
-  color: white;
-  padding: 1rem;
-}
-</style>
