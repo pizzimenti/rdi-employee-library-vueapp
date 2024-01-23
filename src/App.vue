@@ -1,26 +1,42 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <header>
+      <RdiNavbar />
+    </header>
+
+    <main>
+      <!-- Main content (like book listings) will be added here -->
+    </main>
+
+    <footer>
+      <!-- Footer content goes here -->
+    </footer>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import RdiNavbar from './components/RdiNavbar.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    RdiNavbar
   }
 }
 </script>
 
 <style>
+/* Global styles */
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+}
+
+header, footer {
+  padding: 1rem;
+  background-color: #f5f5f5;
+}
+
+main {
+  margin: 1rem;
 }
 </style>
